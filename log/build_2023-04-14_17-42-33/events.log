@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000689] (composiv_tryouts) JobQueued: {'identifier': 'composiv_tryouts', 'dependencies': OrderedDict()}
+[0.001385] (composiv_tryouts) JobStarted: {'identifier': 'composiv_tryouts'}
+[0.017446] (composiv_tryouts) JobProgress: {'identifier': 'composiv_tryouts', 'progress': 'cmake'}
+[0.018243] (composiv_tryouts) JobProgress: {'identifier': 'composiv_tryouts', 'progress': 'build'}
+[0.019218] (composiv_tryouts) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omer/omr-web/ROS2/build/composiv_tryouts', '--', '-j8', '-l8'], 'cwd': '/home/omer/omr-web/ROS2/build/composiv_tryouts', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omer'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omer'), ('OLDPWD', '/home/omer/omr-web/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1991'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omer99:@/tmp/.ICE-unix/1968,unix/omer99:/tmp/.ICE-unix/1968'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6e538e4_f618_4424_b856_5545ab331c93'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.269'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/omer/ignition/IGNITION-GAZEBO/build/ros_ign_plugin_rovercopter'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/omer/ignition/IGNITION-GAZEBO/ros_ign_plugin_rovercopter/worlds'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/omr-web/ROS2/build/composiv_tryouts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PICO_SDK_PATH', '/home/omer/pico/pico-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/omer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064020] (composiv_tryouts) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target composiv_talker\x1b[0m\n'}
+[0.082906] (composiv_tryouts) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o\x1b[0m\n'}
+[0.099632] (-) TimerEvent: {}
+[0.199974] (-) TimerEvent: {}
+[0.300393] (-) TimerEvent: {}
+[0.400755] (-) TimerEvent: {}
+[0.501436] (-) TimerEvent: {}
+[0.601806] (-) TimerEvent: {}
+[0.702191] (-) TimerEvent: {}
+[0.802631] (-) TimerEvent: {}
+[0.903067] (-) TimerEvent: {}
+[1.003480] (-) TimerEvent: {}
+[1.103901] (-) TimerEvent: {}
+[1.204312] (-) TimerEvent: {}
+[1.304705] (-) TimerEvent: {}
+[1.405094] (-) TimerEvent: {}
+[1.505463] (-) TimerEvent: {}
+[1.606127] (-) TimerEvent: {}
+[1.706562] (-) TimerEvent: {}
+[1.806971] (-) TimerEvent: {}
+[1.907376] (-) TimerEvent: {}
+[2.007798] (-) TimerEvent: {}
+[2.108182] (-) TimerEvent: {}
+[2.208618] (-) TimerEvent: {}
+[2.309016] (-) TimerEvent: {}
+[2.409396] (-) TimerEvent: {}
+[2.510044] (-) TimerEvent: {}
+[2.610474] (-) TimerEvent: {}
+[2.710922] (-) TimerEvent: {}
+[2.811329] (-) TimerEvent: {}
+[2.911739] (-) TimerEvent: {}
+[3.012099] (-) TimerEvent: {}
+[3.112575] (-) TimerEvent: {}
+[3.213000] (-) TimerEvent: {}
+[3.313362] (-) TimerEvent: {}
+[3.413851] (-) TimerEvent: {}
+[3.514212] (-) TimerEvent: {}
+[3.614546] (-) TimerEvent: {}
+[3.714886] (-) TimerEvent: {}
+[3.815275] (-) TimerEvent: {}
+[3.915677] (-) TimerEvent: {}
+[4.016098] (-) TimerEvent: {}
+[4.116441] (-) TimerEvent: {}
+[4.216843] (-) TimerEvent: {}
+[4.317147] (-) TimerEvent: {}
+[4.417509] (-) TimerEvent: {}
+[4.517831] (-) TimerEvent: {}
+[4.618244] (-) TimerEvent: {}
+[4.717962] (composiv_tryouts) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable composiv_talker\x1b[0m\n'}
+[4.718273] (-) TimerEvent: {}
+[4.818575] (-) TimerEvent: {}
+[4.919005] (-) TimerEvent: {}
+[4.986293] (composiv_tryouts) StdoutLine: {'line': b'[100%] Built target composiv_talker\n'}
+[5.007478] (composiv_tryouts) CommandEnded: {'returncode': 0}
+[5.019113] (-) TimerEvent: {}
+[5.030843] (composiv_tryouts) JobProgress: {'identifier': 'composiv_tryouts', 'progress': 'install'}
+[5.038720] (composiv_tryouts) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omer/omr-web/ROS2/build/composiv_tryouts'], 'cwd': '/home/omer/omr-web/ROS2/build/composiv_tryouts', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omer'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omer'), ('OLDPWD', '/home/omer/omr-web/ROS2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1991'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/omer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omer99:@/tmp/.ICE-unix/1968,unix/omer99:/tmp/.ICE-unix/1968'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e6e538e4_f618_4424_b856_5545ab331c93'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.269'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/omer/ignition/IGNITION-GAZEBO/build/ros_ign_plugin_rovercopter'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/omer/ignition/IGNITION-GAZEBO/ros_ign_plugin_rovercopter/worlds'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/omr-web/ROS2/build/composiv_tryouts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PICO_SDK_PATH', '/home/omer/pico/pico-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/omer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.047053] (composiv_tryouts) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.047439] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker\n'}
+[5.048975] (composiv_tryouts) StdoutLine: {'line': b'-- Set runtime path of "/home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker" to ""\n'}
+[5.049194] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/package_run_dependencies/composiv_tryouts\n'}
+[5.049364] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/parent_prefix_path/composiv_tryouts\n'}
+[5.049526] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.sh\n'}
+[5.049692] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.dsv\n'}
+[5.049873] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.sh\n'}
+[5.050031] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.dsv\n'}
+[5.050186] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.bash\n'}
+[5.050361] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.sh\n'}
+[5.050541] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.zsh\n'}
+[5.050720] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.dsv\n'}
+[5.050878] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.dsv\n'}
+[5.051043] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/packages/composiv_tryouts\n'}
+[5.051213] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig.cmake\n'}
+[5.051330] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig-version.cmake\n'}
+[5.051445] (composiv_tryouts) StdoutLine: {'line': b'-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.xml\n'}
+[5.053632] (composiv_tryouts) CommandEnded: {'returncode': 0}
+[5.123282] (-) TimerEvent: {}
+[5.126238] (composiv_tryouts) JobEnded: {'identifier': 'composiv_tryouts', 'rc': 0}
+[5.127561] (-) EventReactorShutdown: {}

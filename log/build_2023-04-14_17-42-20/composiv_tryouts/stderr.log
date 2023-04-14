@@ -1,0 +1,8 @@
+In file included from [01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/src/composiv_talker.cpp:1[m[K:
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/include/composiv_talker.h:[m[K In constructor ‘[01m[KcomposivTalker::composivTalker()[m[K’:
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/include/composiv_talker.h:21:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KcomposivTalker[m[K’
+   21 |       500ms, std::bind(&composivTalker::[01;31m[Ktimer_callback[m[K, this));
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/composiv_talker.dir/build.make:76: CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/composiv_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

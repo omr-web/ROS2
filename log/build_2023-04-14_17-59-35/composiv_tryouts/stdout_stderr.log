@@ -1,0 +1,25 @@
+[ 75%] Built target composiv_listener
+[ 75%] [32mBuilding CXX object CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable composiv_talker[0m
+[100%] Built target composiv_talker
+-- Install configuration: ""
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker
+-- Set runtime path of "/home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker" to ""
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_listener
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/launch
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/launch/composiv_tryout.launch.py
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/package_run_dependencies/composiv_tryouts
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/parent_prefix_path/composiv_tryouts
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.sh
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.sh
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.dsv
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.bash
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.sh
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.zsh
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.dsv
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.dsv
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/packages/composiv_tryouts
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig.cmake
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig-version.cmake
+-- Up-to-date: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.xml

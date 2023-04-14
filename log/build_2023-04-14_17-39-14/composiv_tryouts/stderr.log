@@ -1,0 +1,16 @@
+In file included from [01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/src/composiv_talker.cpp:1[m[K:
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/include/composiv_talker.h:[m[K In constructor ‘[01m[KcomposivTalker::composivTalker()[m[K’:
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/include/composiv_talker.h:17:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+   17 |         composivTalker(): Node("composivTalker")[01;31m[K;[m[K
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/src/composiv_talker.cpp:[m[K At global scope:
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/src/composiv_talker.cpp:3:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KcomposivTalker::composivTalker()[m[K’
+    3 | [01;31m[KcomposivTalker[m[K::composivTalker()
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/src/composiv_talker.cpp:1[m[K:
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/include/composiv_talker.h:17:9:[m[K [01;36m[Knote: [m[K‘[01m[KcomposivTalker::composivTalker()[m[K’ previously defined here
+   17 |         [01;36m[KcomposivTalker[m[K(): Node("composivTalker");
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/composiv_talker.dir/build.make:76: CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/composiv_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

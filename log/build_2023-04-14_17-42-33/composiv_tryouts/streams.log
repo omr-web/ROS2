@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/omer/omr-web/ROS2/build/composiv_tryouts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/omr-web/ROS2/build/composiv_tryouts -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target composiv_talker[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o[0m
+[4.717s] [100%] [32m[1mLinking CXX executable composiv_talker[0m
+[4.985s] [100%] Built target composiv_talker
+[5.007s] Invoked command in '/home/omer/omr-web/ROS2/build/composiv_tryouts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/omr-web/ROS2/build/composiv_tryouts -- -j8 -l8
+[5.038s] Invoking command in '/home/omer/omr-web/ROS2/build/composiv_tryouts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omer/omr-web/ROS2/build/composiv_tryouts
+[5.046s] -- Install configuration: ""
+[5.046s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker
+[5.048s] -- Set runtime path of "/home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker" to ""
+[5.048s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/package_run_dependencies/composiv_tryouts
+[5.048s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/parent_prefix_path/composiv_tryouts
+[5.048s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.sh
+[5.048s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.dsv
+[5.049s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.sh
+[5.049s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.dsv
+[5.049s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.bash
+[5.049s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.sh
+[5.049s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.zsh
+[5.049s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.dsv
+[5.050s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.dsv
+[5.050s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/packages/composiv_tryouts
+[5.050s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig.cmake
+[5.050s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig-version.cmake
+[5.050s] -- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.xml
+[5.055s] Invoked command in '/home/omer/omr-web/ROS2/build/composiv_tryouts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omer/omr-web/ROS2/build/composiv_tryouts

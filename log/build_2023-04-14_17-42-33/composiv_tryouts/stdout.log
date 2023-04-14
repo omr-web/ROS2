@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target composiv_talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable composiv_talker[0m
+[100%] Built target composiv_talker
+-- Install configuration: ""
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker
+-- Set runtime path of "/home/omer/omr-web/ROS2/install/composiv_tryouts/lib/composiv_tryouts/composiv_talker" to ""
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/package_run_dependencies/composiv_tryouts
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/parent_prefix_path/composiv_tryouts
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.sh
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/ament_prefix_path.dsv
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.sh
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/environment/path.dsv
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.bash
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.sh
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.zsh
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/local_setup.dsv
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.dsv
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/ament_index/resource_index/packages/composiv_tryouts
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig.cmake
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/cmake/composiv_tryoutsConfig-version.cmake
+-- Installing: /home/omer/omr-web/ROS2/install/composiv_tryouts/share/composiv_tryouts/package.xml

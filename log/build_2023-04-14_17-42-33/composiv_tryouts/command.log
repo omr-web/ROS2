@@ -1,0 +1,4 @@
+Invoking command in '/home/omer/omr-web/ROS2/build/composiv_tryouts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/omr-web/ROS2/build/composiv_tryouts -- -j8 -l8
+Invoked command in '/home/omer/omr-web/ROS2/build/composiv_tryouts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/omr-web/ROS2/build/composiv_tryouts -- -j8 -l8
+Invoking command in '/home/omer/omr-web/ROS2/build/composiv_tryouts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omer/omr-web/ROS2/build/composiv_tryouts
+Invoked command in '/home/omer/omr-web/ROS2/build/composiv_tryouts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omer/omr-web/ROS2/build/composiv_tryouts

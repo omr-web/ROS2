@@ -1,0 +1,7 @@
+[01m[K/home/omer/omr-web/ROS2/src/composiv_tryouts/src/composiv_talker.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcomposiv_talker.h: No such file or directory
+    1 | #include [01;31m[K"composiv_talker.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/composiv_talker.dir/build.make:76: CMakeFiles/composiv_talker.dir/src/composiv_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/composiv_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
